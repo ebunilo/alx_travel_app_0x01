@@ -157,8 +157,7 @@ Early-stage project; interfaces may change.
 - OpenAPI JSON: /api/schema.json
 - OpenAPI YAML: /api/schema.yaml
 
-### Notes
+### Setup
 
-- Auth required for write operations; reads are public (configurable).
-- Ensure drf-yasg is installed: `pip install drf-yasg`
-- Add `rest_framework` and `drf_yasg` to INSTALLED_APPS.
+- `pip install drf-yasg`
+- Add `rest_framework` and `drf_yasg` to INSTALLED_APPS in Django settings.
